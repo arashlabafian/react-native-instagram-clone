@@ -80,7 +80,7 @@ const DirectMessages = (): JSX.Element => {
                         defaultSelected={directMessages?.messageRequests || 0}
                         onChange={_onChangeMessageRequests}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>vucms wants to you a message.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>arash wants to you a message.</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>
@@ -92,7 +92,7 @@ const DirectMessages = (): JSX.Element => {
                         defaultSelected={directMessages?.messageRequests || 0}
                         onChange={_onChangeMessages}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>vucms sent you a message.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>arash sent you a message.</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>
@@ -104,7 +104,7 @@ const DirectMessages = (): JSX.Element => {
                         defaultSelected={directMessages?.groupRequest || 0}
                         onChange={_onChangeGroupRequests}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>vucms wants to add vucms to your group.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>arash wants to add arash to your group.</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>
@@ -116,7 +116,7 @@ const DirectMessages = (): JSX.Element => {
                         defaultSelected={directMessages?.videoChats || 0}
                         onChange={_onChangeVideoChats}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>Incoming video chat from vucms.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>Incoming video chat from arash.</Text>
                 </View>
             </ScrollView>
         </SafeAreaView>

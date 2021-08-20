@@ -19,7 +19,7 @@ const RestrictedAccounts = (): JSX.Element => {
     const dispatch = useDispatch()
     const [query, setQuery] = useState<string>('')
     const [searching, setSearching] = useState<boolean>(false)
-    const [restrictedList, setRestrictedList] = useState<string[]>(restrictedAccounts || ['vucms.user1'])
+    const [restrictedList, setRestrictedList] = useState<string[]>(restrictedAccounts || ['arash.user1'])
     const [restrictedUsers, setRestrictedUsers] = useState<UserInfo[]>([])
     const [result, setResult] = useState<UserInfo[]>([])
     const [currNavigation, setCurrNavigation] =

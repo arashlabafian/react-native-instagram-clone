@@ -12,29 +12,29 @@ export const APP_NAME = 'Instagram'
 export const CLASSIFY_API = 'http://192.168.1.2:5555/classify'
 const firebaseConfig = {
     apiKey: "AIzaSyATgIePHiOXnqlzUN4rRyyaPw4CTWH7yWA",
-    authDomain: "vucms-7f6fa.firebaseapp.com",
-    databaseURL: "https://vucms-7f6fa.firebaseio.com",
-    projectId: "vucms-7f6fa",
-    storageBucket: "vucms-7f6fa.appspot.com",
+    authDomain: "arash-7f6fa.firebaseapp.com",
+    databaseURL: "https://arash-7f6fa.firebaseio.com",
+    projectId: "arash-7f6fa",
+    storageBucket: "arash-7f6fa.appspot.com",
     messagingSenderId: "62284682844",
     appId: "1:62284682844:web:ef8af00934e5fa64dbf899"
 };
 firebase.initializeApp(firebaseConfig)
 // firebase.firestore().collectionGroup('comments')
-//     .where('userId', '==', 'vucms').get().then(x => console.warn(x.docs[0].data()))
+//     .where('userId', '==', 'arash').get().then(x => console.warn(x.docs[0].data()))
 // Refresh stories expired
 // firebase.firestore().collection('stories').get().then(docs => {
 //     docs.forEach(doc => {
 //         doc.ref.update({
 //             create_at: new Date(),
-//             seenList: [ 'vucms.user3', 'vucms.user4', 'vucms.user5', 'vucms.user8']
+//             seenList: [ 'arash.user3', 'arash.user4', 'arash.user5', 'arash.user8']
 //         })
 //     })
 // })
 //Add default Setting
 // firebase.firestore().collection('users').get().then(docs => {
 //     docs.forEach(doc => {
-// if (doc.data().username !== 'vucms') {
+// if (doc.data().username !== 'arash') {
 // firebase.database().ref('/online/' + convertToFirebaseDatabasePathName(doc.data().username)).set({
 //     status: [0, 1][Math.floor(Math.random() * 2)],
 //     last_online: new Date().getTime()
@@ -75,13 +75,13 @@ export const DEFAULT_PHOTO_URI = 'https://www.pavilionweb.com/wp-content/uploads
 //     const ref = firebase.firestore()
 //     ref.collection('posts').doc(`${uid}`).set({
 //         uid,
-//         userId: 'vucms',
+//         userId: 'arash',
 //         source: [
 //             sources[Math.floor(Math.random() * sources.length)]
 //         ],
-//         content: "Hi, I'm @vucms, a react native developer",
+//         content: "Hi, I'm @arash, a react native developer",
 //         create_at: new Date(),
-//         likes: ['vucms', 'vucms0202'],
+//         likes: ['arash', 'arash0202'],
 //         isVideo: false,
 //         permission: 1
 //     })

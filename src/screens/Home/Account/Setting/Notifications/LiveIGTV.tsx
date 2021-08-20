@@ -73,7 +73,7 @@ const LiveIGTV = (): JSX.Element => {
                         defaultSelected={liveIGTV?.liveVideos || 0}
                         onChange={_onChangeLiveVideos}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>vucms started a live video. Watch it before it ends!</Text>
+                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>arash started a live video. Watch it before it ends!</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>

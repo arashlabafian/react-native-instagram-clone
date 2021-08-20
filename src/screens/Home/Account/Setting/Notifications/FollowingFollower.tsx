@@ -94,7 +94,7 @@ const FollowingFollower = (): JSX.Element => {
                         defaultSelected={followingFollowers?.followerRequest || 0}
                         onChange={_onChangeFollowerRequest}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>vucms has requested to follow you.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>arash has requested to follow you.</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>
@@ -106,7 +106,7 @@ const FollowingFollower = (): JSX.Element => {
                         defaultSelected={followingFollowers?.acceptedFollowRequest || 0}
                         onChange={_onChangeAcceptedFollowRequest}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>vucms accepted your follow request.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>arash accepted your follow request.</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>
@@ -118,7 +118,7 @@ const FollowingFollower = (): JSX.Element => {
                         defaultSelected={followingFollowers?.friendsOnInstagram || 0}
                         onChange={_onChangeFriendsOnInstagram}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>Your Facebook friend VuCms is on Instagram as vucms.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>Your Facebook friend arash is on Instagram as arash.</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>
@@ -130,7 +130,7 @@ const FollowingFollower = (): JSX.Element => {
                         defaultSelected={followingFollowers?.mentionsInBio || 0}
                         onChange={_onChangeMentionsInBio}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>vucms mentioned you in their bio.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>arash mentioned you in their bio.</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>
@@ -142,7 +142,7 @@ const FollowingFollower = (): JSX.Element => {
                         defaultSelected={followingFollowers?.recommendationsForOthers || 0}
                         onChange={_onChangeRecommendationsForOthers}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', maxWidth: '90%', paddingHorizontal: 15 }}>Help vucms get started on Instagram by recommending accounts to follow.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', maxWidth: '90%', paddingHorizontal: 15 }}>Help arash get started on Instagram by recommending accounts to follow.</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>
@@ -154,7 +154,7 @@ const FollowingFollower = (): JSX.Element => {
                         defaultSelected={followingFollowers?.recommendationsFromOthers || 0}
                         onChange={_onChangeRecommendationsFromOthers}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', maxWidth: '90%', paddingHorizontal: 15 }}>vucms throught you might like these accounts.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', maxWidth: '90%', paddingHorizontal: 15 }}>arash throught you might like these accounts.</Text>
                 </View>
             </ScrollView>
         </SafeAreaView>

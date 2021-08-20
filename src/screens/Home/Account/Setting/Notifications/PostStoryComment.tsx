@@ -94,7 +94,7 @@ const PostStoryComment = (): JSX.Element => {
                         defaultSelected={postStoryComment?.likes || 0}
                         onChange={_onChangeLikes}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>vucms liked your photo.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>arash liked your photo.</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>
@@ -106,7 +106,7 @@ const PostStoryComment = (): JSX.Element => {
                         defaultSelected={postStoryComment?.likesAndCommentOnPhotoOfYou || 0}
                         onChange={_onChangeLikesandCommentonMyPhoto}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>vucms liked your photo.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>arash liked your photo.</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>
@@ -118,7 +118,7 @@ const PostStoryComment = (): JSX.Element => {
                         defaultSelected={postStoryComment?.photosOfYou || 0}
                         onChange={_onChangePhotoofYou}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>vucms tagged you in a photo.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>arash tagged you in a photo.</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>
@@ -130,7 +130,7 @@ const PostStoryComment = (): JSX.Element => {
                         defaultSelected={postStoryComment?.comments || 0}
                         onChange={_onChangeComments}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>vucms commented: "Nice shot!".</Text>
+                    <Text style={{ fontSize: 12, color: '#666', paddingHorizontal: 15 }}>arash commented: "Nice shot!".</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>
@@ -142,7 +142,7 @@ const PostStoryComment = (): JSX.Element => {
                         defaultSelected={postStoryComment?.commentsAndPins || 0}
                         onChange={_onChangeCommentLikesandPins}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', maxWidth: '80%', paddingHorizontal: 15 }}>vucms commented: "Nice shot!" and other similar notifications</Text>
+                    <Text style={{ fontSize: 12, color: '#666', maxWidth: '80%', paddingHorizontal: 15 }}>arash commented: "Nice shot!" and other similar notifications</Text>
                 </View>
                 <View style={styles.optionsWrapper}>
                     <View style={styles.settingItem}>
@@ -154,7 +154,7 @@ const PostStoryComment = (): JSX.Element => {
                         defaultSelected={postStoryComment?.firstPostsAndStories || 0}
                         onChange={_onChangeFirstPostsandStories}
                     />
-                    <Text style={{ fontSize: 12, color: '#666', maxWidth: '80%', paddingHorizontal: 15 }}>vucms's first story on Instagram and other similar notifications.</Text>
+                    <Text style={{ fontSize: 12, color: '#666', maxWidth: '80%', paddingHorizontal: 15 }}>arash's first story on Instagram and other similar notifications.</Text>
                 </View>
             </ScrollView>
         </SafeAreaView>
