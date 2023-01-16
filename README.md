@@ -3,10 +3,6 @@
 - [Release APK File](https://secufiles.com/aYb3/app-release.apk)
 # React Native Instagram Clone
 
-## Don't forget give me a star if you like it 😅😅 😊😊
-
-The 2nd project what I did with React Native.
-
 - React Native (v0.62)
 - Firebase
 - Typescript
